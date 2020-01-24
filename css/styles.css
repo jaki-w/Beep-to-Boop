@@ -12,6 +12,13 @@ h3 {
   color: white;
 }
 
-form {
-  float: left;
+img {
+  width: 80%;
+}
+
+#formBox  {
+}
+
+#handImage {
+  float: right;
 }
