@@ -5,10 +5,15 @@ $(document).ready(function() {
     var originalNumber = parseInt($("input#userInput").val());
     var numberList = [];
     var i;
+
     for (var i = 0; i <= originalNumber; i++) {
-      numberList.push(i);
-      $(".output").text(numberList)
-    }
+      if (numberList.includes("1")) {
+        (result.push("Beep!"));
+      } else {
+        (numberList.push(i));
+      }
+      $(".output").text(numberList);
+      }
     event.preventDefault();
   });
 });
