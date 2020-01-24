@@ -6,9 +6,14 @@ function translate(inputNumber) {
   for (var i = 0; i <= originalNumber; i++) {
     var stringNumber = i.toString();
 
+    if (stringNumber.includes("1")) {
+      numberList.push("Beep!");
+    } else {
+      result.push(stringNumber + ", ");
+    }
+  }
 
-
-    $(".output").text(numberList);
+  $(".output").text(numberList);
   }
 
 
