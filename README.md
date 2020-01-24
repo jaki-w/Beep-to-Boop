@@ -8,6 +8,16 @@
 
 _A number operator that returns a list of numbers from 0 up to the number input by the user. All numbers that contain 1, 2, or 3 will be replaced with "Beep", "Boop", and "I'm sorry, Dave. I'm afraid I can't do that." respectively._
 
+## Specs
+
+| Behavior                                                                                                                             | Input |                                        Output |
+|--------------------------------------------------------------------------------------------------------------------------------------|:-----:|----------------------------------------------:|
+| Takes in a number and  returns it to user                                                                                            |   9   |                       9                       |
+| Takes in a number and returns it with all numbers from 0 to input number                                                             |   5   |                   1,2,3,4,5                   |
+| Numbers containing 1 are  replaced with "Beep!"                                                                                      |   1   |                     Beep!                     |
+| Numbers containing 2 are replaced with "Boop!"                                                                                       |   2   |                     Boop!                     |
+| Numbers containing 3 are  replaced with "I'm sorry, Dave. I'm afraid I can't do that."                                               |   3   | I'm sorry, Dave. I'm afraid I  can't do that. |
+| Returns to multi-digit numbers  containing 1,2, or 3 are returned based on a hierarchy in which 3  is most important, followed by 2. |   12  |                     Boop!                     |
 ## Setup/ Installation Requirement
 
 * _Open web browser of choice and navigate to Github website._
