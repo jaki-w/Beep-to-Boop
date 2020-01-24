@@ -5,12 +5,12 @@ function translate(inputNumber) {
   for (var i = 0; i <= inputNumber; i++) {
     var stringNumber = i.toString();
 
-    if (stringNumber.includes("1")) {
-      numberList.push(" Beep!");
-    } else if (stringNumber.includes("2")) {
-      numberList.push(" Boop!");
-    } else if (stringNumber.includes("3")) {
+    if (stringNumber.includes("3")) {
       numberList.push(" I'm sorry, Dave. I'm afraid I can't do that.");
+    } else if (stringNumber.includes("2" || "2" && "1")) {
+      numberList.push(" Boop!");
+    } else if (stringNumber.includes("1")) {
+      numberList.push(" Beep!");
     } else {
       numberList.push(" " + stringNumber);
     }
