@@ -6,9 +6,13 @@ function translate(inputNumber) {
     var stringNumber = i.toString();
 
     if (stringNumber.includes("1")) {
-      numberList.push("Beep!");
+      numberList.push(" Beep!");
+    } else if (stringNumber.includes("2")) {
+      numberList.push(" Boop!");
+    } else if (stringNumber.includes("3")) {
+      numberList.push(" I'm sorry, Dave. I'm afraid I can't do that.");
     } else {
-      numberList.push(stringNumber + ", ");
+      numberList.push(" " + stringNumber);
     }
   }
   return numberList;
