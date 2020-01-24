@@ -1,3 +1,17 @@
 body {
-  background-image: url("img/coin slot.jpg");
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+form {
+  float: left;
 }
