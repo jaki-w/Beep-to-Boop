@@ -10,8 +10,6 @@ function translate(inputNumber) {
       numberList.push(" Boop!");
     } else if (stringNumber.includes("1")) {
       numberList.push(" Beep!");
-    } else if (isNaN(stringNumber) === true) {
-      alert("Numerical input only please!");
     } else {
       numberList.push(" " + stringNumber);
     }
