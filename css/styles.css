@@ -12,11 +12,21 @@ h3 {
   color: white;
 }
 
+p {
+  text-align: center;
+  font-style: italic;
+}
+
 img {
   width: 80%;
 }
 
 #formBox  {
+  margin-top: 80px;
+}
+
+button {
+  margin-top: 20px;
 }
 
 #handImage {
