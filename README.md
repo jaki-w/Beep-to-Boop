@@ -25,10 +25,10 @@ _A number operator that returns a list of numbers from 0 up to the number input 
 * _Click the clone or download button and copy web url_
 * _Open your computer's terminal._
 * _Run $ cd desktop._
-* _Run $ git clone https://github.com/jaki-w/JW-portfolio2.git ._
+* _Run $ git clone https://github.com/jaki-w/Beep-to-Boop.git ._
 * _Navigate to your computer's desktop and open JW-portfolio2 folder_
 * _Open the index.html file to view page in browser._
-* _To view page in browser without cloning the repositiory: open web browser of choice and navigate to https://jaki-w.github.io/JW-portfolio2 _
+* _To view page in browser without cloning the repositiory: open web browser of choice and navigate to https://jaki-w.github.io/Beep-to-Boop _
 
 ## Technologies Used
 
